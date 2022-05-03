@@ -1,0 +1,40 @@
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+/*Componentes*/
+@import './header.css';
+@import './bottons.css';
+@import './main.css';
+@import './footer.css';
+@import './responsive-background.css';
+
+/*Reset CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-image: url(../../../Hands-on-1/assets/images/bolha-background.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
